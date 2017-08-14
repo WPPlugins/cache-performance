@@ -1,0 +1,983 @@
+/* line 1, ../sass/style.scss */
+.wp-cache {
+  max-width: 100%;
+}
+/* line 3, ../sass/style.scss */
+.wp-cache header {
+  background: #c5ccce;
+  color: #66666b;
+  padding: 35px;
+  border-radius: 10px 10px 0 0;
+}
+/* line 9, ../sass/style.scss */
+.wp-cache header .col-left {
+  display: inline-block;
+  width: 59%;
+}
+/* line 13, ../sass/style.scss */
+.wp-cache header .col-left h2 {
+  color: #66666b;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+}
+/* line 21, ../sass/style.scss */
+.wp-cache header .col-left small {
+  font-size: 14px;
+  font-weight: 100;
+  color: #66666b;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 31, ../sass/style.scss */
+.wp-cache header .col-right {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+/* line 35, ../sass/style.scss */
+.wp-cache header .col-right a {
+  background: #fff885 none repeat scroll 0 0;
+  color: #928a07;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+/* line 43, ../sass/style.scss */
+.wp-cache header .col-right > p {
+  margin: 5px auto;
+}
+/* line 47, ../sass/style.scss */
+.wp-cache header .col-right small {
+  background: #f65428 none repeat scroll 0 0;
+  border-radius: 1px;
+  font-size: 13px;
+  padding: 2px 13px 3px;
+}
+/* line 56, ../sass/style.scss */
+.wp-cache .container {
+  background: #fff;
+  padding: 35px 20px;
+  display: block;
+}
+/* line 61, ../sass/style.scss */
+.wp-cache .container .tab-wrap {
+  padding: 0 15px;
+  width: 57%;
+  display: inline-block;
+}
+/* line 66, ../sass/style.scss */
+.wp-cache .container .tab-wrap ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+/* line 72, ../sass/style.scss */
+.wp-cache .container .tab-wrap ul.tabs li a {
+  background: #c5ccce;
+  border-radius: 5px 5px 0 0;
+  color: #797979;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0 3px 0 0;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* line 84, ../sass/style.scss */
+.wp-cache .container .tab-wrap ul.tabs li a.current {
+  background: #efefef;
+  color: #797979;
+}
+/* line 93, ../sass/style.scss */
+.wp-cache .container .tab-wrap .tab-content {
+  display: block;
+  background: #efefef;
+  clear: both;
+  padding: 15px;
+  border-radius: 0 5px 5px 5px;
+}
+/* line 100, ../sass/style.scss */
+.wp-cache .container .tab-wrap .tab-content.current {
+  display: inherit;
+}
+/* line 106, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form {
+  display: inline-block;
+  width: 100%;
+}
+/* line 110, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group {
+  display: block;
+  padding: 10px;
+  min-height: 26px;
+  line-height: 26px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 117, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group:last-child {
+  border: none;
+}
+/* line 121, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group .one-third {
+  width: 33%;
+  display: inline-block;
+}
+/* line 126, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group > p {
+  display: block;
+  margin-top: 5px !important;
+}
+/* line 131, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #797979;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+/* line 140, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group span {
+  font-size: 16px;
+  color: #797979;
+}
+/* line 145, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group .for_checkbox {
+  display: inline-block !important;
+  margin-top: 6px;
+}
+/* line 150, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group input[type="checkbox"] {
+  margin: 25px 10px 24px 0 !important;
+}
+/* line 155, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group select, .wp-cache .container .tab-wrap .cache-form .form-group input[type=text] {
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 166, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group input[type=number] {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 5px 0 15px;
+}
+/* line 178, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group input[type=submit] {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #22b922;
+  box-shadow: none;
+  color: #0d730d;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 194, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group input[type=submit]:hover {
+  color: #22b922;
+  background: #0d730d;
+}
+/* line 200, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group textarea {
+  min-width: 90%;
+  border-radius: 5px;
+  background: #f1f1f1;
+  box-shadow: none;
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+/* line 209, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group input.one-third {
+  min-width: 29%;
+  margin-right: 7px;
+}
+/* line 214, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group button.fb-btn {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #416bb1;
+  box-shadow: none;
+  color: #0b3f96;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 230, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group button.fb-btn:hover {
+  color: #416bb1;
+  background: #0b3f96;
+}
+/* line 237, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt {
+  display: block;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  min-height: 34px;
+  line-height: 34px;
+}
+/* line 244, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt > p {
+  display: block;
+  margin-top: 5px !important;
+}
+/* line 249, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+/* line 256, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt .for_checkbox {
+  display: inline-block !important;
+  margin-top: 6px;
+}
+/* line 261, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt input[type="checkbox"] {
+  margin: 25px 10px 24px 0 !important;
+}
+/* line 266, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt select, .wp-cache .container .tab-wrap .cache-form .form-group-alt input[type=text] {
+  min-width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c5ccce;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 278, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt input[type=number] {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c5ccce;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 290, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt input[type=submit] {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #22b922;
+  box-shadow: none;
+  color: #0d730d;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 306, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt input[type=submit]:hover {
+  color: #22b922;
+  background: #0d730d;
+}
+/* line 312, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt textarea {
+  min-width: 90%;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: none;
+  border: 1px solid #c5ccce;
+  padding: 15px;
+}
+/* line 321, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt input.one-third {
+  min-width: 29%;
+  margin-right: 7px;
+}
+/* line 326, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt button.fb-btn {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #416bb1;
+  box-shadow: none;
+  color: #0b3f96;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 342, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cache-form .form-group-alt button.fb-btn:hover {
+  color: #416bb1;
+  background: #0b3f96;
+}
+/* line 350, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+}
+/* line 355, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left, .wp-cache .container .tab-wrap .cdn-form .form-right {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+/* line 360, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 365, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group > p, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group > p {
+  display: block;
+  margin-top: 5px !important;
+}
+/* line 370, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group label, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+/* line 377, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group .for_checkbox, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group .for_checkbox {
+  display: inline-block !important;
+  margin-top: 6px;
+}
+/* line 382, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group input[type="checkbox"], .wp-cache .container .tab-wrap .cdn-form .form-right .form-group input[type="checkbox"] {
+  margin: 25px 10px 24px 0 !important;
+}
+/* line 387, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group select, .wp-cache .container .tab-wrap .cdn-form .form-left .form-group input[type=text], .wp-cache .container .tab-wrap .cdn-form .form-right .form-group select, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group input[type=text] {
+  min-width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c5ccce;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 399, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group input[type=submit], .wp-cache .container .tab-wrap .cdn-form .form-right .form-group input[type=submit] {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #22b922;
+  box-shadow: none;
+  color: #0d730d;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 415, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group input[type=submit]:hover, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group input[type=submit]:hover {
+  color: #22b922;
+  background: #0d730d;
+}
+/* line 421, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group textarea, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group textarea {
+  min-width: 90%;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: none;
+  border: 1px solid #c5ccce;
+  padding: 15px;
+}
+/* line 430, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group input.one-third, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group input.one-third {
+  min-width: 29%;
+  margin-right: 7px;
+}
+/* line 435, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group button.fb-btn, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group button.fb-btn {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #416bb1;
+  box-shadow: none;
+  color: #0b3f96;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 451, ../sass/style.scss */
+.wp-cache .container .tab-wrap .cdn-form .form-left .form-group button.fb-btn:hover, .wp-cache .container .tab-wrap .cdn-form .form-right .form-group button.fb-btn:hover {
+  color: #416bb1;
+  background: #0b3f96;
+}
+/* line 462, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form {
+  display: inline-block;
+  width: 100%;
+}
+/* line 466, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form h3 {
+  padding: 5px 10px;
+  margin: 10px 0 5px 0;
+}
+/* line 471, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group {
+  display: block;
+  padding: 10px;
+  min-height: 26px;
+  line-height: 26px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 478, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group:last-child {
+  border: none;
+}
+/* line 482, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group .one-third {
+  width: 33%;
+  display: inline-block;
+}
+/* line 487, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group > p {
+  display: block;
+  margin-top: 5px !important;
+}
+/* line 492, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #797979;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+/* line 501, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group span {
+  font-size: 16px;
+  color: #797979;
+}
+/* line 506, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group .for_checkbox {
+  display: inline-block !important;
+  margin-top: 6px;
+}
+/* line 511, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group input[type="checkbox"] {
+  margin: 25px 10px 24px 0 !important;
+}
+/* line 516, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group select, .wp-cache .container .tab-wrap .db-form .form-group input[type=text] {
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 527, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group input[type=number] {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 5px 0 15px;
+}
+/* line 539, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group input[type=submit], .wp-cache .container .tab-wrap .db-form .form-group button[type=submit] {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #22b922;
+  box-shadow: none;
+  color: #0d730d;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 555, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group input[type=submit]:hover, .wp-cache .container .tab-wrap .db-form .form-group button[type=submit]:hover {
+  color: #22b922;
+  background: #0d730d;
+}
+/* line 561, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group textarea {
+  min-width: 90%;
+  border-radius: 5px;
+  background: #f1f1f1;
+  box-shadow: none;
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+/* line 570, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group input.one-third {
+  min-width: 29%;
+  margin-right: 7px;
+}
+/* line 576, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 581, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt > p {
+  display: block;
+  margin-top: 5px !important;
+}
+/* line 586, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+/* line 593, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt .for_checkbox {
+  display: inline-block !important;
+  margin-top: 6px;
+}
+/* line 598, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt input[type="checkbox"] {
+  margin: 25px 10px 24px 0 !important;
+}
+/* line 603, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt select, .wp-cache .container .tab-wrap .db-form .form-group-alt input[type=text] {
+  min-width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c5ccce;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 615, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt input[type=number] {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #c5ccce;
+  box-shadow: none;
+  color: #000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+/* line 627, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt input[type=submit] {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #22b922;
+  box-shadow: none;
+  color: #0d730d;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 643, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt input[type=submit]:hover {
+  color: #22b922;
+  background: #0d730d;
+}
+/* line 649, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt textarea {
+  min-width: 90%;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: none;
+  border: 1px solid #c5ccce;
+  padding: 15px;
+}
+/* line 658, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt input.one-third {
+  min-width: 29%;
+  margin-right: 7px;
+}
+/* line 663, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt button.fb-btn {
+  padding: 10px 40px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  border: none;
+  background: #416bb1;
+  box-shadow: none;
+  color: #0b3f96;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 679, ../sass/style.scss */
+.wp-cache .container .tab-wrap .db-form .form-group-alt button.fb-btn:hover {
+  color: #416bb1;
+  background: #0b3f96;
+}
+/* line 687, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel {
+  margin: 20px auto;
+  padding: 20px;
+  background: #f7b66d;
+  border-radius: 5px;
+}
+/* line 693, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+/* line 699, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel.featured-panel.stye-1 {
+  background: #23458b none repeat scroll 0 0;
+}
+/* line 703, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel .pane-head {
+  display: block;
+  width: 100%;
+}
+/* line 706, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel .pane-head a {
+  display: block;
+}
+/* line 709, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel .pane-head a.just-link {
+  text-decoration: none;
+  background: #d4d4d4;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #585858;
+  border-radius: 0 0 5px 5px;
+}
+/* line 717, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel .pane-head a.just-link:hover {
+  background: #c7c6c6;
+}
+/* line 722, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel .pane-head img {
+  display: block;
+  width: 100%;
+}
+/* line 728, ../sass/style.scss */
+.wp-cache .container .tab-wrap .panel.featured-panel {
+  background: #f65428 none repeat scroll 0 0;
+  margin-bottom: 13px;
+  padding: 1px;
+}
+/* line 735, ../sass/style.scss */
+.wp-cache .container .btn-submit {
+  background: #00CDBF;
+  color: #05867d;
+  height: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: unset;
+  box-shadow: none;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+/* line 749, ../sass/style.scss */
+.wp-cache .container .btn-submit:hover {
+  background: #12c7bb;
+  color: #05867d;
+}
+
+/* line 775, ../sass/style.scss */
+.side-bar {
+  padding: 0 15px;
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 781, ../sass/style.scss */
+.side-bar h4 {
+  background: #ffffff;
+  border-radius: 5px;
+  color: #797979;
+  margin: 0;
+  padding: 10px 25px;
+  line-height: 25px;
+  font-weight: 400;
+}
+/* line 791, ../sass/style.scss */
+.side-bar .panel-side {
+  background: #A5CA39;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* line 802, ../sass/style.scss */
+.side-bar .pane-head a img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* line 810, ../sass/style.scss */
+.side-bar .pane-head h2 {
+  color: white;
+  line-height: 22px;
+  text-align: center;
+}
+/* line 816, ../sass/style.scss */
+.side-bar .pane-head h3 {
+  background: #bfbfbf;
+  color: #737373;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 824, ../sass/style.scss */
+.side-bar .btn-current {
+  background: #fff;
+  color: #789a13;
+  height: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: unset;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+/* line 840, ../sass/style.scss */
+.stars {
+  float: right;
+  height: 19px;
+  background: transparent url("/wp-content/plugins/wp-disable/images/stars.jpg") repeat scroll 0 0;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  /* line 848, ../sass/style.scss */
+  .tab-wrap {
+    width: 96%;
+  }
+
+  /* line 851, ../sass/style.scss */
+  .col-left, .col-right, .side-bar {
+    width: 100%;
+  }
+
+  /* line 854, ../sass/style.scss */
+  .col-right a {
+    display: block;
+  }
+}
+/* line 861, ../sass/style.scss */
+.do-box > .postbox {
+  background: #f66637;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+/* line 867, ../sass/style.scss */
+.do-box > .postbox h3 {
+  color: #9c3818;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 875, ../sass/style.scss */
+.do-box > .postbox .inside {
+  margin: 0;
+  padding: 15px;
+}
+/* line 879, ../sass/style.scss */
+.do-box > .postbox .inside img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* line 885, ../sass/style.scss */
+.do-box > .postbox .inside span {
+  color: #fff;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 890, ../sass/style.scss */
+.do-box > .postbox .inside span:last-child {
+  margin-bottom: 0;
+}
+/* line 895, ../sass/style.scss */
+.do-box > .postbox .inside .orange-box {
+  padding: 10px 15px;
+  background: #ffe04e;
+  border-radius: 5px;
+  color: #88772b;
+}
+/* line 901, ../sass/style.scss */
+.do-box > .postbox .inside .orange-box a {
+  color: #50471c;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* line 906, ../sass/style.scss */
+.do-box > .postbox .inside .orange-box a:hover {
+  color: #88772b;
+}
+
+/* The switch - the box around the slider */
+/* line 916, ../sass/style.scss */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 26px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Hide default HTML checkbox */
+/* line 926, ../sass/style.scss */
+.switch input {
+  display: none;
+}
+
+/* The slider */
+/* line 929, ../sass/style.scss */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F37E67;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* line 941, ../sass/style.scss */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* line 953, ../sass/style.scss */
+input:checked + .slider {
+  background-color: #00CDBF;
+}
+
+/* line 957, ../sass/style.scss */
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+/* line 961, ../sass/style.scss */
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+/* line 968, ../sass/style.scss */
+.slider.round {
+  border-radius: 34px;
+}
+
+/* line 972, ../sass/style.scss */
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* line 977, ../sass/style.scss */
+.rec-plugin .plugin-wrap {
+  padding: 25px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* line 983, ../sass/style.scss */
+.rec-plugin .plugin-wrap .left-body {
+  display: inline-block;
+  min-width: 150px;
+}
+/* line 988, ../sass/style.scss */
+.rec-plugin .plugin-wrap .right-body {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+}
+/* line 995, ../sass/style.scss */
+.rec-plugin .plugin-wrap .activation-row li {
+  display: inline-block;
+  margin-right: 10px;
+}
